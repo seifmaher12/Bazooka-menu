@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>BAZOOKA MENU</title>
+
+<link rel="stylesheet" href="style.css">
+```
+
+</head>
+
+<body>
+
+```
+<!-- Header -->
+<header class="header">
+
+    <div class="logo">
+        🍗 BAZOOKA
+    </div>
+
+    <button class="cart-btn" id="openCart">
+        🛒 Cart
+        <span id="cartCount">0</span>
+    </button>
+
+</header>
+
+
+<!-- Hero -->
+<section class="hero">
+
+    <div class="hero-content">
+
+        <p class="small-title">WELCOME TO</p>
+
+        <h1>
+            Our Delicious
+            <span>Menu</span>
+        </h1>
+
+        <p>
+            Fresh food, great taste and amazing offers in
+            <span class="small-title">BAZOOKA</span>.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- Categories -->
+<section class="categories">
+
+    <button class="category active" data-category="all">
+        All
+    </button>
+
+    <button class="category" data-category="chicken">
+        Chicken
+    </button>
+
+    <button class="category" data-category="burgers">
+        Burgers
+    </button>
+
+    <button class="category" data-category="meals">
+        Meals
+    </button>
+
+    <button class="category" data-category="sides">
+        Sides
+    </button>
+
+    <button class="category" data-category="drinks">
+        Drinks
+    </button>
+
+</section>
+
+
+<!-- Menu -->
+<main class="menu">
+
+    <div class="menu-title">
+
+        <h2>Our Menu</h2>
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search for food..."
+        >
+
+    </div>
+
+    <div class="products" id="products"></div>
+
+</main>
+
+
+<!-- Cart Overlay -->
+<div class="overlay" id="overlay"></div>
+
+
+<!-- Cart -->
+<aside class="cart" id="cart">
+
+    <div class="cart-header">
+
+        <h2>Your Cart</h2>
+
+        <button id="closeCart">
+            ✕
+        </button>
+
+    </div>
+
+    <div class="cart-items" id="cartItems">
+
+        <p class="empty">
+            Your cart is empty
+        </p>
+
+    </div>
+
+    <div class="cart-footer">
+
+        <div class="total">
+
+            <span>Total</span>
+
+            <strong id="cartTotal">
+                0 EGP
+            </strong>
+
+        </div>
+
+        <button class="checkout" id="checkout">
+            Checkout
+        </button>
+
+    </div>
+
+</aside>
+
+
+<!-- Footer -->
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <div class="footer-logo">
+            🍗 BAZOOKA
+        </div>
+
+        <p>
+            Fresh food, great taste and amazing offers.
+        </p>
+
+        <div class="footer-line"></div>
+
+        <p class="copyright">
+            © 2026 BAZOOKA. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
