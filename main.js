@@ -184,6 +184,7 @@ function showProducts(list) {
         </div>
     `).join("");
 }
+showProducts(products);
 
 function addToCart(id) {
     let item = cart.find(item => item.id === id);
